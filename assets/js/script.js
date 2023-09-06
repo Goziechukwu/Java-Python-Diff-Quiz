@@ -175,7 +175,11 @@ quizRegistrationForm.addEventListener('submit', getUserFormDetails);
 // Set Functions to Reveal the Questions and to Set the Choices in Clickable Buttons
 //create the function to reveal the question: 
 function revealQuestion() {
+    const currentQuestion = questions[currentQuestionIndex];
+    questionElement.textContent = currentQuestion.question;
+    questionNumberElement.innerHTML = currentQuestion.questionIndex;
 
+    choicesElement.innerHTML = "";
 
     // create buttons for the choices(options):
     for() {
