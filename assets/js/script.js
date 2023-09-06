@@ -182,7 +182,9 @@ function revealQuestion() {
     choicesElement.innerHTML = "";
 
     // create buttons for the choices(options):
-    for() {
+    for (let i = 0; i < currentQuestion.choices.length; i++) {
+        const choiceElement = document.createElement("button");
+        choiceElement.textContent = currentQuestion.choices[i];
 
         // create a click-handler function to select the choices by clicking:
         function choiceClickHandler(choice) {
