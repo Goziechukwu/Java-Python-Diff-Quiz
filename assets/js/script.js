@@ -188,8 +188,9 @@ function revealQuestion() {
 
         // create a click-handler function to select the choices by clicking:
         function choiceClickHandler(choice) {
-
-
+            return function () {
+                checkChoice(choice);
+            };
         }
     }
 }
