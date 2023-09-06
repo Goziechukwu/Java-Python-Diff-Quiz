@@ -1,42 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <title>Java-Python-Diff-Quiz</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- Getting Registration Form Values -->
     <h3 id="username-prompt">Create a Username for the Quiz</h3>
     <form id="quiz-registration" method="POST" action="">
-        <div class="username">
-            <label for="username">Username</label>
-            <input id="username" name="username" type="text" required>
-        </div>
-        <input type="submit">
-        <p id="username-value"></p>
+      <div class="username">
+        <label for="username">Username</label>
+        <input id="username" name="username" type="text" required />
+      </div>
+      <input type="submit" />
+      <p id="username-value"></p>
     </form>
 
     <!-- Quiz Section -->
-    <section>
-        <header id="hero-head">
-            <h1>Java-Python-Difference Quiz</h1>
-        </header>
-    </section>
+    <div>
+      <header id="hero-head">
+        <h1>Java-Python-Difference Quiz</h1>
+      </header>
+    </div>
     <section id="question-container">
-        <div class="serial-number">
-            <h2 id="question-number"></h2>
-        </div>
-        <div id="question">
-            <h2>Questions are revealed here dynamically</h2>
-        </div>
-        <div id="choices" class="choice-options">Choices(Options) will be displayed here dynamically</div>
+      <div class="serial-number">
+        <h2 id="question-number"></h2>
+      </div>
+      <div id="question">
+        <h2>Questions are revealed here dynamically</h2>
+      </div>
+      <div id="choices" class="choice-options">
+        Choices(Options) will be displayed here dynamically
+      </div>
     </section>
 
     <footer></footer>
-    
+
     <script src="assets/js/script.js"></script>
-</body>
+  </body>
 </html>

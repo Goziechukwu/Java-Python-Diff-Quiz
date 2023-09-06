@@ -13,101 +13,102 @@ body {
 }
 
 /* Styling the User Registration Form Area */
-    /* styling the username prompt */
-    h3 {
-        margin: 5px 0 0 10px;
-        font-size: 90%;
-    }
+/* styling the username prompt */
+h3 {
+    margin: 5px 0 0 10px;
+    font-size: 90%;
+}
 
-    /* styling the username block */
-    .username {
-        margin-left: 10px;
-        margin-top: 2px;
-    }
+/* styling the username block */
+.username {
+    margin-left: 10px;
+    margin-top: 2px;
+}
 
-    #username {
-        margin-top: 2px;
-        margin-left: 10px;
-        font-family: Lato, sans-serif;
-        font-weight: 1000;
-    }
+#username {
+    margin-top: 2px;
+    margin-left: 10px;
+    font-family: Lato, sans-serif;
+    font-weight: 1000;
+}
 
-    #username-value {
-        margin-left: 10px;
-        font-family: Lato, sans-serif;
-        padding: 10px 0;
-        font-weight: 8000;
-        font-size: large;
-        color: #00008b;
-        text-transform: uppercase;
-    }
+#username-value {
+    margin-left: 10px;
+    font-family: Lato, sans-serif;
+    padding: 10px 0;
+    font-weight: 8000;
+    font-size: large;
+    color: #00008b;
+    text-transform: uppercase;
+}
 
-    /* styling the input properties of the form */
-    input {
-        margin-left: 10px;
-        padding: 5px;
-        color: #0d0d61;
-        border-radius: 5px;
-        font-family: Oswald, sans-serif;
-        font-weight: 2000;
-        cursor: pointer;
-        background-color: #e4e0e0;
-        transition: background-color 0.3s ease;
-    }
+/* styling the input properties of the form */
+input {
+    margin-left: 10px;
+    padding: 5px;
+    color: #0d0d61;
+    border-radius: 5px;
+    font-family: Oswald, sans-serif;
+    font-weight: 2000;
+    cursor: pointer;
+    background-color: #e4e0e0;
+    transition: background-color 0.3s ease;
+}
 
-    input:hover {
-        background-color: #f0f333;
-    }
+input:hover {
+    background-color: #f0f333;
+}
 
+
+
+/* Styling the Header's div */
+/* styling the header */
+#hero-head {
+    text-align: center;
+}
 
 /* Styling the Section Areas */
-    /* styling the header section */
-        /* styling the header */
-        #hero-head {
-            text-align: center;
-        }
-    
-    /* styling the question container section */
-    section {
-        width: 96%;
-        padding: 20px;
-        height: 700%;
-        text-align: center;
-    }
-    
-        /* styling the question number div */
-        .serial-number {
-            padding: 10px;
-        }
-    
-        /* styling the question div */
-        #question {
-            margin: 35px 20px 10px;
-            padding: 10px 200px;
-            font-size: 225%;
-            height: 300%;
-            color: #00008b;
-        }
-    
-        /* styling the choices div */
-        .choice-options button {
-            padding: 20px;
-            margin: 10px;
-            border: none;
-            border-radius: 15px;
-            font-size: 150%;
-            display: inline-block;
-            color: #00008b;
-            font-family: Oswald, sans-serif;
-            font-weight: 500;
-            cursor: pointer;
-            background-color: #a9a9a9;
-            transition: background-color 0.3s ease;
-        }
-    
-        .choice-options button:hover {
-            background-color: #ffff00;
-        }
+/* styling the question container section */
+section {
+    width: 96%;
+    padding: 20px;
+    height: 700%;
+    text-align: center;
+}
+
+/* styling the question number div */
+.serial-number {
+    padding: 10px;
+}
+
+/* styling the question div */
+#question {
+    margin: 35px 20px 10px;
+    padding: 10px 200px;
+    font-size: 225%;
+    height: 300%;
+    color: #00008b;
+}
+
+/* styling the choices div */
+.choice-options button {
+    padding: 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 15px;
+    font-size: 150%;
+    display: inline-block;
+    color: #00008b;
+    font-family: Oswald, sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: #a9a9a9;
+    transition: background-color 0.3s ease;
+}
+
+.choice-options button:hover {
+    background-color: #ffff00;
+}
 
 /* Media Queries */
 @media (max-width: 945px) {
