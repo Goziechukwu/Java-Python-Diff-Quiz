@@ -162,8 +162,15 @@ let score = 0;
 
 // Set Function to Get the User's Filled-Out Form Details
 function getUserFormDetails(event) {
+    event.preventDefault();
+    let username = document.getElementById('username');
 
+    document.getElementById("username-value").innerHTML = username.value;
 }
+
+let quizRegistrationForm = document.getElementById("quiz-registration");
+quizRegistrationForm.addEventListener('submit', getUserFormDetails);
+
 
 // Set Functions to Reveal the Questions and to Set the Choices in Clickable Buttons
 //create the function to reveal the question: 
