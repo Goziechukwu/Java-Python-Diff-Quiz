@@ -165,3 +165,9 @@ body {
     }
 }
 
+@media (max-width: 341px) {
+    #question {
+        padding: 0px;
+        margin: 10px;
+    }
+}
