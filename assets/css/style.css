@@ -133,3 +133,10 @@ body {
         padding: 10px 110px;
     }
 }
+
+@media (max-width: 636px) {
+    #question {
+        padding: 10px 90px;
+    }
+}
+
