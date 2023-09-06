@@ -200,7 +200,22 @@ function revealQuestion() {
 
 // Set Function to Check the Rightness or Wrongness of the Selected Choice and Alert the User
 function checkChoice(selectedChoice) {
+    const currentQuestion = questions[currentQuestionIndex];
 
+    if (selectedChoice === currentQuestion.correctChoice) {
+        score++;
+        alert(`Correct! Yes, it is ${selectedChoice}!`);
+    } else {
+        alert(`Ouch... ${selectedChoice} is the wrong choice !`);
+    }
+
+    currentQuestionIndex++;
+
+    if (currentQuestionIndex < questions.length) {
+        revealQuestion();
+    } else {
+        endQuiz();
+    }
 }
 
 // Set Function to End the Quiz and Display the User's Final Score
