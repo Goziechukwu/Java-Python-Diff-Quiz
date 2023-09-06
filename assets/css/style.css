@@ -109,3 +109,9 @@ body {
             background-color: #ffff00;
         }
 
+/* Media Queries */
+@media (max-width: 945px) {
+    #question {
+        font-size: 190%;
+    }
+}
