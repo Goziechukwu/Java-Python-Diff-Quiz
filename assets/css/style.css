@@ -6,3 +6,51 @@
     padding: 0;
     border: none;
 }
+
+/* Styling the User Registration Form Area */
+    /* styling the username prompt */
+    h3 {
+        margin: 5px 0 0 10px;
+        font-size: 90%;
+    }
+
+    /* styling the username block */
+    .username {
+        margin-left: 10px;
+        margin-top: 2px;
+    }
+
+    #username {
+        margin-top: 2px;
+        margin-left: 10px;
+        font-family: Lato, sans-serif;
+        font-weight: 1000;
+    }
+
+    #username-value {
+        margin-left: 10px;
+        font-family: Lato, sans-serif;
+        padding: 10px 0;
+        font-weight: 8000;
+        font-size: large;
+        color: #00008b;
+        text-transform: uppercase;
+    }
+
+    /* styling the input properties of the form */
+    input {
+        margin-left: 10px;
+        padding: 5px;
+        color: #0d0d61;
+        border-radius: 5px;
+        font-family: Oswald, sans-serif;
+        font-weight: 2000;
+        cursor: pointer;
+        background-color: #e4e0e0;
+        transition: background-color 0.3s ease;
+    }
+
+    input:hover {
+        background-color: #f0f333;
+    }
+
