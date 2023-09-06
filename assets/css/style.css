@@ -146,3 +146,9 @@ body {
     }
 }
 
+@media (max-width: 500px) {
+    #question {
+        padding: 10px 20px;
+    }
+}
+
