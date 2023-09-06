@@ -220,7 +220,11 @@ function checkChoice(selectedChoice) {
 
 // Set Function to End the Quiz and Display the User's Final Score
 function endQuiz() {
-
+    questionElement.textContent = `You scored: ${score} out of ${questions.length}`;
+    choicesElement.innerHTML = "";
+    questionNumberElement.innerHTML = "";
+    document.getElementById("username-prompt").innerHTML = "";
+    document.getElementById('quiz-registration').innerHTML = "";
 }
 
 revealQuestion();
