@@ -121,3 +121,9 @@ body {
         font-size: 180%;
     }
 }
+
+@media (max-width: 870px) {
+    #question {
+        padding: 10px 150px;
+    }
+}
