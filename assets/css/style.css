@@ -61,7 +61,51 @@ body {
 
 
 /* Styling the Section Areas */
-    /* styling the header */
-    #hero-head {
+    /* styling the header section */
+        /* styling the header */
+        #hero-head {
+            text-align: center;
+        }
+    
+    /* styling the question container section */
+    section {
+        width: 96%;
+        padding: 20px;
+        height: 700%;
         text-align: center;
     }
+    
+        /* styling the question number div */
+        .serial-number {
+            padding: 10px;
+        }
+    
+        /* styling the question div */
+        #question {
+            margin: 35px 20px 10px;
+            padding: 10px 200px;
+            font-size: 225%;
+            height: 300%;
+            color: #00008b;
+        }
+    
+        /* styling the choices div */
+        .choice-options button {
+            padding: 20px;
+            margin: 10px;
+            border: none;
+            border-radius: 15px;
+            font-size: 150%;
+            display: inline-block;
+            color: #00008b;
+            font-family: Oswald, sans-serif;
+            font-weight: 500;
+            cursor: pointer;
+            background-color: #a9a9a9;
+            transition: background-color 0.3s ease;
+        }
+    
+        .choice-options button:hover {
+            background-color: #ffff00;
+        }
+
