@@ -152,3 +152,9 @@ body {
     }
 }
 
+@media (max-width: 401px) {
+    #question {
+        padding: 10px 20px;
+        font-size: 170%;
+    }
+}
