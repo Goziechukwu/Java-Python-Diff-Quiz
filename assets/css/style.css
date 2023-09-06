@@ -60,3 +60,8 @@ body {
     }
 
 
+/* Styling the Section Areas */
+    /* styling the header */
+    #hero-head {
+        text-align: center;
+    }
