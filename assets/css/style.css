@@ -127,3 +127,9 @@ body {
         padding: 10px 150px;
     }
 }
+
+@media (max-width: 740px) {
+    #question {
+        padding: 10px 110px;
+    }
+}
