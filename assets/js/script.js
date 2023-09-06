@@ -186,12 +186,15 @@ function revealQuestion() {
         const choiceElement = document.createElement("button");
         choiceElement.textContent = currentQuestion.choices[i];
 
-        // create a click-handler function to select the choices by clicking:
+        // set a click-handler function to select the choices by clicking:
         function choiceClickHandler(choice) {
             return function () {
                 checkChoice(choice);
             };
         }
+        choiceElement.addEventListener("click", choiceClickHandler(currentQuestion.choices[i]));
+
+        choicesElement.appendChild(choiceElement);
     }
 }
 
