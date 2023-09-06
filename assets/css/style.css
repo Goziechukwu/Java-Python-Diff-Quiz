@@ -140,3 +140,9 @@ body {
     }
 }
 
+@media (max-width: 584px) {
+    #question {
+        padding: 10px 58px;
+    }
+}
+
