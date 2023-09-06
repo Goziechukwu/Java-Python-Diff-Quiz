@@ -7,6 +7,11 @@
     border: none;
 }
 
+/* Styling the Body */
+body {
+    height: 9px;
+}
+
 /* Styling the User Registration Form Area */
     /* styling the username prompt */
     h3 {
@@ -53,4 +58,5 @@
     input:hover {
         background-color: #f0f333;
     }
+
 
