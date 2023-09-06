@@ -154,6 +154,10 @@ const questions = [
     }
 ];
 
+// Declare other variables
+let questionNumberElement = document.getElementById("question-number");
+let currentQuestionIndex = 0;
+let score = 0;
 
 
 // Set Function to Get the User's Filled-Out Form Details
