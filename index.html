@@ -9,14 +9,14 @@
 </head>
 <body>
     <!-- Getting Registration Form Values -->
-    <h3>Create a Username for the Quiz</h3>
-    <form action="">
-        <div>
-            <label for="">Username</label>
-            <input type="text">
+    <h3 id="username-prompt">Create a Username for the Quiz</h3>
+    <form id="quiz-registration" method="POST" action="">
+        <div class="username">
+            <label for="username">Username</label>
+            <input id="username" name="username" type="text" required>
         </div>
-        <input type="text">
-        <p></p>
+        <input type="submit">
+        <p id="username-value"></p>
     </form>
 
     <!-- Quiz Section -->
@@ -34,6 +34,7 @@
         </div>
         <div>Choices(Options) will be displayed here dynamically</div>
     </section>
+
     <footer></footer>
     
     <script src="assets/js/script.js"></script>
