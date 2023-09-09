@@ -3,154 +3,154 @@ const questionElement = document.getElementById("question");
 const choicesElement = document.getElementById("choices");
 const questions = [
     {
-        questionIndex: "Question One",
+        choices: ["JavaScript", "Python"],
+        correctChoice: "Python",
         question: "Which is known for its use of indentation to define code blocks?",
-        choices: ["JavaScript", "Python"],
-        correctChoice: "Python"
+        questionIndex: "Question One"        
     },
     {
-        questionIndex: "Question Two",
+        choices: ["JavaScript", "Python"],
+        correctChoice: "Python",
         question: "In which is Global Interpreter Lock (GIL) a potential limitation for multithreaded tasks?",
-        choices: ["JavaScript", "Python"],
-        correctChoice: "Python"
+        questionIndex: "Question Two"
     },
     {
-        questionIndex: "Question Three",
+        choices: ["JavaScript", "Python"],
+        correctChoice: "JavaScript",
         question: "Which is commonly used for building interactive web applications in browsers?",
-        choices: ["JavaScript", "Python"],
-        correctChoice: "JavaScript"
+        questionIndex: "Question Three"        
     },
     {
-        questionIndex: "Question Four",
+        choices: ["JavaScript", "Python"],
+        correctChoice: "JavaScript",
         question: "Which is more prone to type coercion?",
-        choices: ["JavaScript", "Python"],
-        correctChoice: "JavaScript"
+        questionIndex: "Question Four"                
     },
     {
-        questionIndex: "Question Five",
+        choices: ["JavaScript", "Python"],
+        correctChoice: "Python",
         question: "Which has a stronger standard library with modules for various tasks?",
-        choices: ["JavaScript", "Python"],
-        correctChoice: "Python"
+        questionIndex: "Question Five"        
     },
     {
-        questionIndex: "Question Six",
+        choices: ["JavaScript", "Python"],
+        correctChoice: "JavaScript",
         question: "Which relies on semicolons to terminate statements?",
-        choices: ["JavaScript", "Python"],
-        correctChoice: "JavaScript"
+        questionIndex: "Question Six"        
     },
     {
-        questionIndex: "Question Seven",
+        choices: ["JavaScript", "Python"],
+        correctChoice: "Python",
         question: "Which is dynamically typed but strongly typed?",
-        choices: ["JavaScript", "Python"],
-        correctChoice: "Python"
+        questionIndex: "Question Seven"
     },
     {
-        questionIndex: "Question Eight",
+        choices: ["JavaScript", "Python"],
+        correctChoice: "Python",
         question: "Which language is widely used in scientific computing and machine learning?",
-        choices: ["JavaScript", "Python"],
-        correctChoice: "Python"
+        questionIndex: "Question Eight"        
     },
     {
-        questionIndex: "Question Nine",
-        question: "Which language typically uses curly braces {} for defining code blocks?",
         choices: ["JavaScript", "Python"],
-        correctChoice: "JavaScript"
+        correctChoice: "JavaScript",
+        question: "Which language typically uses curly braces {} for defining code blocks?",        
+        questionIndex: "Question Nine"
     },
     {
-        questionIndex: "Question Ten",
+        choices: ["JavaScript", "Python"],
+        correctChoice: "JavaScript",
         question: "Which language uses async/await for handling asynchronous operations efficiently?",
-        choices: ["JavaScript", "Python"],
-        correctChoice: "JavaScript"
+        questionIndex: "Question Ten"        
     },
     {
-        questionIndex: "Question Eleven",
+        choices: ["JavaScript", "Python"],
+        correctChoice: "Python",
         question: "Which language is known for its simplicity and readability?",
-        choices: ["JavaScript", "Python"],
-        correctChoice: "Python"
+        questionIndex: "Question Eleven"        
     },
     {
-        questionIndex: "Question Twelve",
+        choices: ["JavaScript", "Python"],
+        correctChoice: "JavaScript",
         question: "Which language is more suitable for CPU-bound multithreaded tasks?",
-        choices: ["JavaScript", "Python"],
-        correctChoice: "JavaScript"
+        questionIndex: "Question Twelve"        
     },
     {
-        questionIndex: "Question Thirteen",
+        choices: ["JavaScript", "Python"],
+        correctChoice: "JavaScript",
         question: "Which language has a large community and ecosystem for both front-end and back-end development?",
-        choices: ["JavaScript", "Python"],
-        correctChoice: "JavaScript"
+        questionIndex: "Question Thirteen"        
     },
     {
-        questionIndex: "Question Fourteen",
+        choices: ["JavaScript", "Python"],
+        correctChoice: "Python",
         question: "Which language is commonly used with libraries like NumPy and SciPy for scientific computing?",
-        choices: ["JavaScript", "Python"],
-        correctChoice: "Python"
+        questionIndex: "Question Fourteen"        
     },
     {
-        questionIndex: "Question Fifteen",
+        choices: ["JavaScript", "Python"],
+        correctChoice: "JavaScript",
         question: "Which language has a standard library well-suited for web-related tasks like DOM manipulation?",
-        choices: ["JavaScript", "Python"],
-        correctChoice: "JavaScript"
+        questionIndex: "Question Fifteen"        
     },
     {
-        questionIndex: "Question Sixteen",
+        choices: ["JavaScript", "Python"],
+        correctChoice: "Python",
         question: "Which language is frequently used for building RESTful APIs and server-side applications?",
-        choices: ["JavaScript", "Python"],
-        correctChoice: "Python"
+        questionIndex: "Question Sixteen"        
     },
     {
-        questionIndex: "Question Seventeen",
+        choices: ["JavaScript", "Python"],
+        correctChoice: "JavaScript",
         question: "Which language has a strong emphasis on callback functions for handling asynchronous operations?",
-        choices: ["JavaScript", "Python"],
-        correctChoice: "JavaScript"
+        questionIndex: "Question Seventeen"        
     },
     {
-        questionIndex: "Question Eighteen",
+        choices: ["JavaScript", "Python"],
+        correctChoice: "JavaScript",
         question: "Which language has better performance optimization for web browsers?",
-        choices: ["JavaScript", "Python"],
-        correctChoice: "JavaScript"
+        questionIndex: "Question Eighteen"        
     },
     {
-        questionIndex: "Question Nineteen",
+        choices: ["JavaScript", "Python"],
+        correctChoice: "Python",
         question: "Which language is preferred for machine learning and deep learning projects with libraries like TensorFlow?",
-        choices: ["JavaScript", "Python"],
-        correctChoice: "Python"
+        questionIndex: "Question Nineteen"        
     },
     {
-        questionIndex: "Question Twenty",
+        choices: ["JavaScript", "Python"],
+        correctChoice: "Python",
         question: "Which language is often used for building web applications with frameworks like Django and Flask?",
-        choices: ["JavaScript", "Python"],
-        correctChoice: "Python"
+        questionIndex: "Question Twenty"        
     },
     {
-        questionIndex: "Question Twenty-One",
+        choices: ["JavaScript", "Python"],
+        correctChoice: "Python",
         question: "Which language's community is known for its rich ecosystem of packages and libraries available for various tasks?",
-        choices: ["JavaScript", "Python"],
-        correctChoice: "Python"
+        questionIndex: "Question Twenty-One"        
     },
     {
-        questionIndex: "Question Twenty-Two",
+        choices: ["JavaScript", "Python"],
+        correctChoice: "Python",
         question: "Which language is commonly used for data analysis and manipulation with libraries like Pandas?",
-        choices: ["JavaScript", "Python"],
-        correctChoice: "Python"
+        questionIndex: "Question Twenty-Two"        
     },
     {
-        questionIndex: "Question Twenty-three",
+        choices: ["JavaScript", "Python"],
+        correctChoice: "JavaScript",
         question: "Which language has a feature known as \"hoisting,\" where variable and function declarations are moved to the top of their containing scope during compilation?",
-        choices: ["JavaScript", "Python"],
-        correctChoice: "JavaScript"
+        questionIndex: "Question Twenty-three"        
     },
     {
-        questionIndex: "Question Twenty-four",
+        choices: ["JavaScript", "Python"],
+        correctChoice: "Python",
         question: "Which language is often associated with the use of decorators for modifying functions and methods at runtime?",
-        choices: ["JavaScript", "Python"],
-        correctChoice: "Python"
+        questionIndex: "Question Twenty-four"        
     },
     {
-        questionIndex: "Question Twenty-five",
-        question: "Which language uses the \"await\" keyword to pause the execution of a function until a promise is resolved?",
         choices: ["JavaScript", "Python"],
-        correctChoice: "JavaScript"
+        correctChoice: "JavaScript",
+        question: "Which language uses the \"await\" keyword to pause the execution of a function until a promise is resolved?",
+        questionIndex: "Question Twenty-five"        
     }
 ];
 
@@ -163,13 +163,13 @@ let score = 0;
 // Set Function to Get the User's Filled-Out Form Details
 function getUserFormDetails(event) {
     event.preventDefault();
-    let username = document.getElementById('username');
+    let username = document.getElementById("username");
 
     document.getElementById("username-value").innerHTML = username.value;
 }
 
 let quizRegistrationForm = document.getElementById("quiz-registration");
-quizRegistrationForm.addEventListener('submit', getUserFormDetails);
+quizRegistrationForm.addEventListener("submit", getUserFormDetails);
 
 
 // Set Functions to Render the Questions and to Set the Choices in Clickable Buttons
@@ -224,7 +224,7 @@ function endQuiz() {
     choicesElement.innerHTML = "";
     questionNumberElement.innerHTML = "";
     document.getElementById("username-prompt").innerHTML = "";
-    document.getElementById('quiz-registration').innerHTML = "";
+    document.getElementById("quiz-registration").innerHTML = "";
 }
 
 renderQuestion();

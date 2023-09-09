@@ -50,7 +50,7 @@ The HTML and CSS codes have been tested for validation in the w3C HTML Validator
 
 <img src="./assets/images/validation-testing-screenshot-2.png" alt="Second Validation Testing">
 
-The JavaScript code has been tested for validation in the ESLint
+The JavaScript code has been tested for validation in the JSLint
 
 ## Accessibility Requirements
 
