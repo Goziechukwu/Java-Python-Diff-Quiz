@@ -58,8 +58,6 @@ JavaScript-Python-Diff-Quiz has been tested using Lighthouse on Google and found
 
 <img src="./assets/images/accessibility-requirements-score-screenshot.PNG" alt="Accessibility Requirements Score">
 
-## Bugs, and How I Fixed Them
-
 ## File Structure
 
 Folders and Files in the workspace are created as follows:
