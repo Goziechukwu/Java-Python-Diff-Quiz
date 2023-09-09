@@ -1,10 +1,10 @@
 # JavaScript-Python-Diff-Quiz
 
-JavaScript-Python-Diff-Quiz is an online-quiz site that hopes to help people clearly know the differences between JavaScript and Python in terms of their features and applications, through testing the user in a short-quiz about their differences. The site will be targeted towards all kinds of people, but especially towards software developers and computer scientists who would want to know what language (JavaScript or Python) would be more appropriate for use in a particular design target. JavaScript-Python-Diff-Quiz will be useful in making the user get a good grasp of the features, ecosystems, libraries and strengths of both languages which will aid the user in making an informed decision on what language to use for the specific targeted of design.
+JavaScript-Python-Diff-Quiz is an online-quiz site that hopes to help people clearly know the differences between JavaScript and Python in terms of their features and applications, through testing the user in a short-quiz about their differences. The site will be targeted towards all kinds of people, but especially towards software developers and computer scientists who would want to know what language (JavaScript or Python) would be more appropriate for use in a particular design target. JavaScript-Python-Diff-Quiz will be useful in making the user get a good grasp of the features, ecosystems, libraries and strengths of both languages which will aid the user in making an informed decision on what language to use for the specific target of design.
 
 ## Using JavaScript-Python-Diff-Quiz
 
-Upon visiting JavaScript-Python-Diff-Quiz's website, the user will see a prompt to input a username for the quiz in a form at the top left of the screen. Below the prompt, at the center of the page, the user sees the first quiz question. The website is a single page and is responsive to all device sizes and works effectively on all types of browsers.
+Upon visiting JavaScript-Python-Diff-Quiz's website, the user will see a prompt to input a username for the quiz in a form at the top left of the screen. Below the prompt, at the center of the page, the user sees the first quiz question. The website is of a single page and is responsive to all device sizes and works effectively on all types of browsers.
 
 <img src="./assets/images/responsiveness-screenshot.png" alt="Responsiveness Screenshot">
 
@@ -86,7 +86,9 @@ Email: inekwegoziechukwu@gmail.com
 
 ## Acknowledgements and References
 
-- _JavaScript Logic_: The logic used in the javascript was a collection of a mix of my Personal Ideas, ideas from my Mentor at Code Institute and ideas from [Chat GPT 3.5](https://chat.openai.com/).
+- _Structure of my README_: Most of the writing structure of this README document was obtained from my(the author's) former website: [Decor Awesome](https://goziechukwu.github.io/decor-awesome/).
+
+- _JavaScript Logic_: The logic used in the javascript was a collection of a mix of my(the author's) Personal Ideas, ideas from my Mentor at Code Institute and ideas from [Chat GPT 3.5](https://chat.openai.com/).
 
 - _Google Fonts_: The two fonts, Oswald and Lato used in the website design were obtained from [Google Fonts](https://fonts.google.com/).
 
