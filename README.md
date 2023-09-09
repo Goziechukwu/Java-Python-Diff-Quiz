@@ -1,10 +1,10 @@
-# Java-Python-Diff-Quiz
+# JavaScript-Python-Diff-Quiz
 
-Java-Python-Diff-Quiz is an online-quiz site that hopes to help people clearly know the differences between JavaScript and Python in terms of their features and applications, through testing the user in a short-quiz about their differences. The site will be targeted towards all kinds of people, but especially towards software developers and computer scientists who would want to know what language (JavaScript or Python) would be more appropriate for use in a particular design target. Java-Python-Diff-Quiz will be useful in making the user get a good grasp of the features, ecosystems, libraries and strengths of both languages which will aid the user in making an informed decision on what language to use for the specific targeted of design.
+JavaScript-Python-Diff-Quiz is an online-quiz site that hopes to help people clearly know the differences between JavaScript and Python in terms of their features and applications, through testing the user in a short-quiz about their differences. The site will be targeted towards all kinds of people, but especially towards software developers and computer scientists who would want to know what language (JavaScript or Python) would be more appropriate for use in a particular design target. JavaScript-Python-Diff-Quiz will be useful in making the user get a good grasp of the features, ecosystems, libraries and strengths of both languages which will aid the user in making an informed decision on what language to use for the specific targeted of design.
 
-## Using Java-Python-Diff-Quiz
+## Using JavaScript-Python-Diff-Quiz
 
-Upon visiting Java-Python-Diff-Quiz's website, the user will see a prompt to input a username for the quiz in a form at the top left of the screen. Below the prompt, at the center of the page, the user sees the first quiz question. The website is a single page and is responsive to all device sizes and works effectively on all types of browsers.
+Upon visiting JavaScript-Python-Diff-Quiz's website, the user will see a prompt to input a username for the quiz in a form at the top left of the screen. Below the prompt, at the center of the page, the user sees the first quiz question. The website is a single page and is responsive to all device sizes and works effectively on all types of browsers.
 
 <img src="./assets/images/responsiveness-screenshot.png" alt="Responsiveness Screenshot">
 
@@ -38,7 +38,7 @@ The Codeanywhere workspace was used to write the code.
 
 • All the codes, README and the commits were pushed to GitHub repository
 
-• The fonts used were obtained from the Font Awesome library in google
+• The fonts used were obtained from the Google Fonts library in google
 
 ## Validation Testing
 
@@ -46,23 +46,19 @@ The author has tested the website's user interface and has found out that it loo
 
 The HTML and CSS codes have been tested for validation in the w3C HTML Validator and the w3C (Jigsaw) CSS Validator respectively, and no errors were returned.
 
-<img src="./assets/images/validation-testing-screenshot-1.png" alt="First Validation Testing">
+<img src="./assets/images/validation-testing-screenshot-1.PNG" alt="First Validation Testing">
 
-<img src="./assets/images/validation-testing-screenshot-2.png" alt="Second Validation Testing">
+<img src="./assets/images/validation-testing-screenshot-2.PNG" alt="Second Validation Testing">
 
-The JavaScript code has been tested for validation in the JSLint
+The JavaScript code has been tested for validation in the JSLint Validator and the warnings it gave: _"Unexpected trailing space"_, _"Line is more than 80 characters long" (especially for the comments)_, can be ignored, because they help to improve the readability of the code.
 
 ## Accessibility Requirements
 
-Decor Awesome has been tested using Lighthouse on Google and found to completely meet Accessibility Requirements, in addition to having Best Practices, and more, as indicated in the screenshot below:
+JavaScript-Python-Diff-Quiz has been tested using Lighthouse on Google and found to completely meet Accessibility Requirements, in addition to having Best Practices, and more, as indicated in the screenshot below:
 
-<img src="./assets/images/accessibility-requirements-score-screenshot.png" alt="Accessibility Requirements Score">
+<img src="./assets/images/accessibility-requirements-score-screenshot.PNG" alt="Accessibility Requirements Score">
 
 ## Bugs, and How I Fixed Them
-
-I had a challenge with my social media icons. The code syntax I used made my icons within the footer to be clickable beyond the perimeter of each icon. I solved this by copying out the class names from the scripts of the downloaded social media icon tags and putting the class names in the anchor element tags, thus giving the anchor elements the class of the icon elements and taking out the icon tags from the code.
-
-This worked, but then the icons changed to their default blue colors, and I wanted them to be black colour in the website, I then had to create a new css rule for the icons, having the class names “fa-brands” and setting a color property of black. This gave me what I desired, the black-colored icons.
 
 ## File Structure
 
@@ -70,11 +66,9 @@ Folders and Files in the workspace are created as follows:
 
 Folders: - Assets folder
 
-Contents: - CSS folder and Images folder
+Contents: - CSS folder, JS folder and Images folder.
 
-Files: - index.html, gallery.html, signup.html and style.css files (in the CSS folder)
-
-Other files are photo files in the images folder, like the hero-image, mood-center-image, services-background image, signup-background-image, and others in the gallery.
+Files: - index.html, style.css (in the CSS folder) and script.js (in the JS folder) files.
 
 ## Deployment
 
@@ -82,23 +76,19 @@ The site was deployed to GitHub pages by the following steps:
 Navigating in the GitHub repository to the Settings tab,
 Clicking the drop-down menu under the source section and selecting 'Master Branch', and finally waiting for the page to refresh and display a detailed ribbon sign indicating that deployment was successful.
 
-This brought forth, under the Pages section under Settings, Decor Awesome's live link which is as follows:
+This brought forth, under the Pages section under Settings, JavaScript-Python-Diff-Quiz's live link which is as follows:
 
-<https://goziechukwu.github.io/decor-awesome/>
+<https://goziechukwu.github.io/Java-Python-Diff-Quiz/>
 
 ## Contact information
 
-The website developer's contact details are as follows:
+The website developer's contact details are as below:
 
 Email: inekwegoziechukwu@gmail.com
 
 ## Acknowledgements and References
 
-- _Love-Running Project_- from Code Institute: Some of the Love-Running Project's style of naming was used in naming some of the ids and classes in Decor Awesome's website; also a few of Love-Running Project's css style rules were used in Decor Awesome's 'style.css' file.
-
-- _Unsplash website_: All photos in the website were obtained from the [Unsplash website](unsplash.com) website.
-
-- _Font Awesome_: All icons used in the 'enhanced-mood' section and in the footer section were gotten from the [Font Awesome](https://fontawesome.com/) website.
+- _JavaScript Logic_: The logic used in the javascript was a collection of a mix of my Personal Ideas, ideas from my Mentor at Code Institute and ideas from [Chat GPT 3.5](https://chat.openai.com/).
 
 - _Google Fonts_: The two fonts, Oswald and Lato used in the website design were obtained from [Google Fonts](https://fonts.google.com/).
 
