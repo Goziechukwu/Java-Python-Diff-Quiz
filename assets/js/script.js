@@ -172,9 +172,9 @@ let quizRegistrationForm = document.getElementById("quiz-registration");
 quizRegistrationForm.addEventListener('submit', getUserFormDetails);
 
 
-// Set Functions to Reveal the Questions and to Set the Choices in Clickable Buttons
-//create the function to reveal the question: 
-function revealQuestion() {
+// Set Functions to Render the Questions and to Set the Choices in Clickable Buttons
+//create the function to render the question: 
+function renderQuestion() {
     const currentQuestion = questions[currentQuestionIndex];
     questionElement.textContent = currentQuestion.question;
     questionNumberElement.innerHTML = currentQuestion.questionIndex;
@@ -212,7 +212,7 @@ function checkChoice(selectedChoice) {
     currentQuestionIndex++;
 
     if (currentQuestionIndex < questions.length) {
-        revealQuestion();
+        renderQuestion();
     } else {
         endQuiz();
     }
@@ -227,4 +227,4 @@ function endQuiz() {
     document.getElementById('quiz-registration').innerHTML = "";
 }
 
-revealQuestion();
+renderQuestion();
