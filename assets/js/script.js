@@ -177,6 +177,20 @@ let userNameButton = document.querySelector("#quiz-registration > button");
 userNameButton.addEventListener("click", getUserFormDetails);
 
 
+// Set Function to Ensure the User Fills in Username Details before Accessing Quiz Questions
+function closeDialog(dialogId) {
+    document.getElementById(dialogId).classList.add("hidden");
+
+    currentQuestionIndex++;
+
+    if (currentQuestionIndex < questions.length) {
+        renderQuestion();
+    } else {
+        endQuiz();
+    }
+}
+
+
 // Set Functions to Render the Questions and to Set the Choices in Clickable Buttons
 //create the function to render the question: 
 function renderQuestion() {
