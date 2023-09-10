@@ -245,5 +245,3 @@ function endQuiz() {
     document.getElementById("username-prompt").innerHTML = "";
     document.getElementById("quiz-registration").innerHTML = "";
 }
-
-renderQuestion();
