@@ -8,7 +8,7 @@ Upon visiting JavaScript-Python-Diff-Quiz's website, the user will see a prompt 
 
 <img src="./assets/images/responsiveness-screenshot.png" alt="Responsiveness Screenshot">
 
-Source: [Responsivity measurement](https://ui.dev/amiresponsive?url=%20https://goziechukwu.github.io/Java-Python-Diff-Quiz/)
+Source: [Responsivity measurement](https://ui.dev/amiresponsive?url=https://goziechukwu.github.io/JavaScript-Python-Diff-Quiz/)
 
 ## Features
 
@@ -34,6 +34,8 @@ The website was designed using the following programming languages:
   
 - JAVASCRIPT
 
+- [Google Fonts](https://fonts.google.com/) was used to obtain the two fonts, Oswald and Lato used in the website.
+
 The Codeanywhere workspace was used to write the code. 
 
 • All the codes, README and the commits were pushed to GitHub repository
@@ -56,7 +58,7 @@ The JavaScript code has been tested for validation in the JSLint Validator and t
 
 JavaScript-Python-Diff-Quiz has been tested using Lighthouse on Google and found to completely meet Accessibility Requirements, in addition to having Best Practices, and more, as indicated in the screenshot below:
 
-<img src="./assets/images/accessibility-requirements-score-screenshot.PNG" alt="Accessibility Requirements Score">
+<img src="./assets/ima alt="Accessibility Requirements Score">
 
 ## File Structure
 
@@ -76,7 +78,7 @@ Clicking the drop-down menu under the source section and selecting 'Master Branc
 
 This brought forth, under the Pages section under Settings, JavaScript-Python-Diff-Quiz's live link which is as follows:
 
-<https://goziechukwu.github.io/Java-Python-Diff-Quiz/>
+<https://goziechukwu.github.io/JavaScript-Python-Diff-Quiz/>
 
 ## Contact information
 
@@ -88,8 +90,6 @@ Email: inekwegoziechukwu@gmail.com
 
 - _Structure of my README_: Most of the writing structure of this README document was obtained from my(the author's) former website: [Decor Awesome](https://goziechukwu.github.io/decor-awesome/).
 
-- _JavaScript Logic_: The logic used in the javascript was a collection of a mix of my(the author's) Personal Ideas, ideas from my Mentor at Code Institute and ideas from [Chat GPT 3.5](https://chat.openai.com/).
-
-- _Google Fonts_: The two fonts, Oswald and Lato used in the website design were obtained from [Google Fonts](https://fonts.google.com/).
+- _JavaScript Logic_: The logic used in the javascript was a mix of a collection of my(the author's) Personal Ideas, ideas from my Mentor at Code Institute and ideas from [Chat GPT 3.5](https://chat.openai.com/).
 
 - _Code Institute Form Dump Url_: The [Code Institute's Form Dump url](https://formdump.codeinstitute.net/) was used in my code for the posting of the form in the 'signup.html'.
