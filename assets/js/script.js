@@ -230,18 +230,10 @@ function checkChoice(selectedChoice) {
     const currentQuestion = questions[currentQuestionIndex];
 
     if (selectedChoice === currentQuestion.correctChoice) {
-        score++;
-        alert(`Correct! Yes, it is ${selectedChoice}!`);
-    } else {
-        alert(`Ouch... ${selectedChoice} is the wrong choice !`);
-    }
-
-    currentQuestionIndex++;
-
-    if (currentQuestionIndex < questions.length) {
-        renderQuestion();
-    } else {
-        endQuiz();
+        score++;        
+        document.getElementById("correct-choice").classList.remove("hidden");
+    } else {        
+        document.getElementById("incorrect-choice").classList.remove("hidden");
     }
 }
 
