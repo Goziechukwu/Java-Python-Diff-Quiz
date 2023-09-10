@@ -19,27 +19,47 @@
         <button>Submit</button>
     </div>
         <div><span id="username-value"></span></div>
-        
-    <!-- Quiz Section -->
-    <div>
-      <header id="hero-head">
-        <h1>JavaScript-Python-Difference Quiz</h1>
-      </header>
-    </div>
-    <section id="question-container">
-      <div class="serial-number">
-        <h2 id="question-number">
-          Question serial number comes here dynamically
-        </h2>
-      </div>
-      <div id="question">
-        <h2>Questions are revealed here dynamically</h2>
-      </div>
-      <div id="choices" class="choice-options">
-        Choices(Options) will be displayed here dynamically
-      </div>
-    </section>
 
+    <!-- Quiz Section -->
+    <section id="question-container">
+        <h1 id="hero-head">
+            <div>JavaScript-Python-Difference Quiz</div>
+        </h1>
+
+        <div class="serial-number">
+            <h2 id="question-number">
+                Question serial number comes here dynamically
+            </h2>
+        </div>
+        <div id="question">
+            <h2>Questions are revealed here dynamically</h2>
+        </div>
+        <div id="choices" class="choice-options">
+            Choices(Options) will be displayed here dynamically
+        </div>
+
+        <div id="username-msg">
+            <span>Please enter Username to continue</span>
+        </div>
+        <div id="correct-choice" class="hidden">
+            <span>You selected the correct option.</span>
+            <button
+                class="close-btn"
+                onclick="closeDialog('correct-choice')"
+            >
+                Close
+            </button>
+        </div>
+        <div id="incorrect-choice" class="hidden">
+            <span>That is incorrect.</span>
+            <button
+                class="close-btn"
+                onclick="closeDialog('incorrect-choice')"
+            >
+                Close
+            </button>
+        </div>
+    </section>
     <footer></footer>
 
     <script src="assets/js/script.js"></script>
