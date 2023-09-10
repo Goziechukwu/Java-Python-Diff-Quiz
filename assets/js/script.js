@@ -194,6 +194,11 @@ function closeDialog(dialogId) {
 // Set Functions to Render the Questions and to Set the Choices in Clickable Buttons
 //create the function to render the question: 
 function renderQuestion() {
+    if (!username) {
+        // document.getElementById("username-msg").classList.remove("hidden");
+        return;
+    }
+
     const currentQuestion = questions[currentQuestionIndex];
     questionElement.textContent = currentQuestion.question;
     questionNumberElement.innerHTML = currentQuestion.questionIndex;
@@ -211,7 +216,10 @@ function renderQuestion() {
                 checkChoice(choice);
             };
         }
-        choiceElement.addEventListener("click", choiceClickHandler(currentQuestion.choices[i]));
+        choiceElement.addEventListener(
+            "click",
+            choiceClickHandler(currentQuestion.choices[i])
+        );
 
         choicesElement.appendChild(choiceElement);
     }
