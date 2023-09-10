@@ -110,6 +110,10 @@ section {
     background-color: #ffff00;
 }
 
+.hidden {
+    display: none;
+}
+
 /* Media Queries */
 @media (max-width: 945px) {
     #question {
