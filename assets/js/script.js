@@ -158,18 +158,23 @@ const questions = [
 let questionNumberElement = document.getElementById("question-number");
 let currentQuestionIndex = 0;
 let score = 0;
-
+let username = null;
 
 // Set Function to Get the User's Filled-Out Form Details
 function getUserFormDetails(event) {
     event.preventDefault();
-    let username = document.getElementById("username");
+    username = document.getElementById("username").value;
 
-    document.getElementById("username-value").innerHTML = username.value;
+    if (username) {
+        document.getElementById("username-msg").classList.add("hidden");
+        document.getElementById("quiz-registration").classList.add("hidden");
+        document.getElementById("username-value").innerHTML = username;
+        renderQuestion();
+    }
 }
 
-let quizRegistrationForm = document.getElementById("quiz-registration");
-quizRegistrationForm.addEventListener("submit", getUserFormDetails);
+let userNameButton = document.querySelector("#quiz-registration > button");
+userNameButton.addEventListener("click", getUserFormDetails);
 
 
 // Set Functions to Render the Questions and to Set the Choices in Clickable Buttons
