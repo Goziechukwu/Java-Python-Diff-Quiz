@@ -6,7 +6,7 @@ JavaScript-Python-Diff-Quiz is an online-quiz site that hopes to help people cle
 
 Upon visiting JavaScript-Python-Diff-Quiz's website, the user will see a prompt to input a username for the quiz in a form at the top left of the screen. Below the prompt, at the center of the page, the user sees the first quiz question. The website is of a single page and is responsive to all device sizes and works effectively on all types of browsers.
 
-<img src="./assets/images/responsiveness-screenshot.png" alt="Responsiveness Screenshot">
+<img src="./assets/images/responsiveness-screenshot.PNG" alt="Responsiveness Screenshot">
 
 Source: [Responsivity measurement](https://ui.dev/amiresponsive?url=https://goziechukwu.github.io/JavaScript-Python-Diff-Quiz/)
 
