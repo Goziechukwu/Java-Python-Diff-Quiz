@@ -58,7 +58,7 @@ The JavaScript code has been tested for validation in the JSLint Validator and t
 
 JavaScript-Python-Diff-Quiz has been tested using Lighthouse on Google and found to completely meet Accessibility Requirements, in addition to having Best Practices, and more, as indicated in the screenshot below:
 
-<img src="./assets/ima alt="Accessibility Requirements Score">
+<img src="./assets/images/accessibility-requirements-score-screenshot.PNG" alt="Accessibility Requirements Score">
 
 ## File Structure
 
