@@ -277,4 +277,7 @@ function endQuiz() {
     questionNumberElement.innerHTML = "";
     document.getElementById("username-prompt").innerHTML = "";
     document.getElementById("quiz-registration").innerHTML = "";
+    document.getElementById("next-button").innerHTML = "";
+    document.getElementById("correct-choice").innerHTML = "";
+    document.getElementById("incorrect-choice").innerHTML = "";
 }
