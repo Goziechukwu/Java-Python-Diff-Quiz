@@ -92,4 +92,3 @@ Email: inekwegoziechukwu@gmail.com
 
 - _JavaScript Logic_: The logic used in the javascript was a mix of a collection of my(the author's) Personal Ideas, ideas from my Mentor at Code Institute and ideas from [Chat GPT 3.5](https://chat.openai.com/).
 
-- _Code Institute Form Dump Url_: The [Code Institute's Form Dump url](https://formdump.codeinstitute.net/) was used in my code for the posting of the form in the 'signup.html'.
