@@ -23,6 +23,7 @@ h3 {
 .username {
     margin-left: 10px;
     margin-top: 2px;
+    color:#00008b
 }
 
 #username {
@@ -69,6 +70,9 @@ input:hover {
 /* styling the header */
 #hero-head {
     text-align: center;
+    font-family: Lato, sans-serif;
+    font-weight: 1000;
+    color: #e00f0f
 }
 
 /* Styling the Section Areas */
@@ -116,6 +120,18 @@ section {
 
 .hidden {
     display: none;
+}
+
+/* styling the NEXT button */
+#next-button{
+    padding: 10px 0;
+    margin: 10px;
+    border: none;
+    border-radius: 15px;
+    font-family: Lato, sans-serif;
+    font-weight: 1000;
+    font-size: 150%;
+    color: #e00f0f;
 }
 
 /* Media Queries */

@@ -163,7 +163,7 @@ let username = null;
 // Set Function to Get the User's Filled-Out Form Details
 function getUserFormDetails(event) {
     event.preventDefault();
-    username = document.getElementById("username").value;
+    username = document.getElementById("username").value.trim();
 
     if (username) {
         document.getElementById("username-msg").classList.add("hidden");
@@ -180,6 +180,7 @@ userNameButton.addEventListener("click", getUserFormDetails);
 // Set Function to Ensure the User Fills in Username Details before Accessing Quiz Questions
 function closeDialog(dialogId) {
     document.getElementById(dialogId).classList.add("hidden");
+    document.getElementById("next-button").classList.remove("hidden");
 
     currentQuestionIndex++;
 
@@ -192,10 +193,13 @@ function closeDialog(dialogId) {
 
 
 // Set Functions to Render the Questions and to Set the Choices in Clickable Buttons
-//create the function to render the question: 
+// Create the function to render the question: 
 function renderQuestion() {
+    // Reset hasSelected flag for the new question
+    hasSelected = false;
+
     if (!username) {
-        // document.getElementById("username-msg").classList.remove("hidden");
+        document.getElementById("username-msg").classList.remove("hidden");
         return;
     }
 
@@ -205,28 +209,31 @@ function renderQuestion() {
 
     choicesElement.innerHTML = "";
 
-    // create buttons for the choices(options):
+    // Create buttons for the choices (options):
     for (let i = 0; i < currentQuestion.choices.length; i++) {
-        const choiceElement = document.createElement("button");
+        let choiceElement = document.createElement("button");
         choiceElement.textContent = currentQuestion.choices[i];
 
-        // set a click-handler function to select the choices by clicking:
-        function choiceClickHandler(choice) {
-            return function () {
-                checkChoice(choice);
-            };
-        }
-        choiceElement.addEventListener(
-            "click",
-            choiceClickHandler(currentQuestion.choices[i])
-        );
+        // Set a click-handler function to select the choices by clicking:
+        choiceElement.addEventListener("click", function() {
+            if (!hasSelected) {
+                checkChoice(currentQuestion.choices[i]);
+                hasSelected = true;
+            }
+        });
 
         choicesElement.appendChild(choiceElement);
     }
 }
 
+
 // Set Function to Check the Rightness or Wrongness of the Selected Choice and Alert the User
 function checkChoice(selectedChoice) {
+    // If user has already selected, return without doing anything
+    if (hasSelected) {
+        return;
+    }
+
     const currentQuestion = questions[currentQuestionIndex];
 
     if (selectedChoice === currentQuestion.correctChoice) {
@@ -235,7 +242,33 @@ function checkChoice(selectedChoice) {
     } else {        
         document.getElementById("incorrect-choice").classList.remove("hidden");
     }
+
+    // Show the "Next" button
+    document.getElementById("next-button").classList.remove("hidden");    
+
+    // Set the flag to true, indicating the user has made a selection
+    hasSelected = true;
 }
+
+
+// Set Function to Proceed to the Next Question
+function nextQuestion() {
+    currentQuestionIndex++;
+
+    if (currentQuestionIndex < questions.length) {
+        renderQuestion();
+        // Hide the messages and the "Next" button again
+        document.getElementById("correct-choice").classList.add("hidden");
+        document.getElementById("incorrect-choice").classList.add("hidden");
+        document.getElementById("next-button").classList.add("hidden");
+    } else {
+        endQuiz();
+    }
+}
+
+let nextButton = document.getElementById("next-button");
+nextButton.addEventListener("click", nextQuestion);
+
 
 // Set Function to End the Quiz and Display the User's Final Score
 function endQuiz() {

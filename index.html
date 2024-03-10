@@ -48,19 +48,20 @@
         </div>
 
         <div id="correct-choice" class="hidden">
-            <span>You selected the Correct Option !</span>
-            <button class="close-btn" onclick="closeDialog('correct-choice')">
-                Close
+            <span>Correct!</span>
+            <button class="close-btn" id="correct-btn" onclick="closeDialog('correct-choice')">
+                <!-- Close -->
             </button>
         </div>
 
         <div id="incorrect-choice" class="hidden">
-            <span>That is incorrect</span>
+            <span>Wrong!</span>
 
-            <button class="close-btn" onclick="closeDialog('incorrect-choice')">
-                Close
+            <button class="close-btn" id="incorrect-btn" onclick="closeDialog('incorrect-choice')">
+                <!-- Close -->
             </button>
         </div>
+        <button id="next-button" class="hidden">Next</button>
     </section>
 
     <footer>
